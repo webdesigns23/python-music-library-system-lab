@@ -2,8 +2,8 @@ class Song:
     count = 0
     genres = []
     artists = []
-    genre_count = {"Rap": 5, "Rock": 1, "Country": 3}
-    artist_count = {"Beyonce": 17, "Jay-Z": 40}
+    genre_count = {}
+    artist_count = {}
 
     def __init__(self, name, artist, genre):
         self.name = name
